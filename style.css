@@ -394,8 +394,9 @@ button:hover {
     .heroSection button {
         font-size: 70%;
     }
-   .rightNav p {
-       font-size: 80%;
+    .rightNav p {
+        font-size: 80%;
+    }
     .secondSection button {
         font-size: 70%;
     }
@@ -414,7 +415,46 @@ button:hover {
     .heroSection h3, .secondSection h3 {
         font-size: 100%;
     }
-    .thirdSection h4 {
+    .rightThird h4 {
+        font-size: 100%;
+    }
+    .contactLeft h3 {
+        font-size: 120%;
+        text-align: center;
+    }
+}
 
-        font-size: 80%
+@media only screen and (max-width: 425px) {
+    .heroSection button {
+        font-size: 50%;
+    }
+    .secondSection button {
+        font-size: 50%;
+    }
+    input {
+        height: 2vh;
+    }
+    .rightNav {
+        width: 60%;
+        font-size: 60%;
+    }
+    .leftNav {
+        width: 40%;
+    }
+    .heroSection h1 {
+        font-size: 200%;
+    }
+    .heroSection h3, .secondSection h3 {
+        font-size: 80%;
+    }
+    .heroSection h3, .secondSection h3 {
+        font-size: 80%;
+    }
+    .rightThird h4 {
+        font-size: 80%;
+    }
+    .contactLeft h3, .rightThird h3 {
+        font-size: 100%;
+        text-align: center;
+    }
 }
