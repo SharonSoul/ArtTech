@@ -248,7 +248,7 @@ a {
     flex-direction: column;
 }
 input {
-    height: 6vh;
+    height: 4vh;
     font-size: 110%;
 }
 label {
@@ -329,7 +329,7 @@ button:hover {
         font-size: 100%;
     }
     input {
-        height: 4vh;
+        height: 3vh;
     }
     .rightNav {
         width: 50%;
@@ -405,7 +405,7 @@ button:hover {
         font-size: 70%;
     }
     input {
-        height: 3vh;
+        height: 2vh;
     }
     .rightNav {
         width: 70%;
@@ -436,7 +436,7 @@ button:hover {
         font-size: 50%;
     }
     input {
-        height: 2vh;
+        height: 1.5vh;
     }
     .rightNav {
         width: 60%;
