@@ -15,6 +15,10 @@ nav {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: #473F34;
+}
 .leftNav {
     width: 60%;
 }
@@ -190,17 +194,17 @@ nav {
     margin-right: 2%;
     width: 9%;
 }
-.contactSection h3 {
+#contactSection h3 {
     font-size: 250%;
     letter-spacing: .05em;
     margin: 0% 0% 3% 0%;
     color: rgb(194, 75, 10);
 }
-.contactSection h4 {
+#contactSection h4 {
     font-size: 120%;
 }
 
-.contactSection {
+#contactSection {
     margin-top: 3%;
     display: flex;
     justify-content: space-between;
@@ -373,7 +377,7 @@ button:hover {
     .thirdSection h3 {
         color: rgb(194, 75, 10);
     }
-    .contactSection {
+    #contactSection {
         flex-direction: column;
     }
     textarea {
