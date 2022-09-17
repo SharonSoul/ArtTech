@@ -422,7 +422,7 @@ button:hover {
     .rightThird h4 {
         font-size: 100%;
     }
-    .contactLeft h3 {
+    #contactSection h3, .thirdSection h3 {
         font-size: 120%;
         text-align: center;
     }
@@ -457,7 +457,7 @@ button:hover {
     .rightThird h4 {
         font-size: 80%;
     }
-    .contactLeft h3, .rightThird h3 {
+    #contactSection h3, .thirdSection h3 {
         font-size: 100%;
         text-align: center;
     }
