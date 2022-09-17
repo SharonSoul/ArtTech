@@ -69,7 +69,7 @@ nav {
     margin: auto;
     */margin: 0% 30%;
     padding: 1% 0%;
-    font-size: 200%;
+    font-size: 150%;
     font-weight: 900;
     border: none;
     border-radius: 25px;
@@ -88,6 +88,7 @@ nav {
 
 .flexBtn {
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -113,7 +114,7 @@ nav {
 }
     
 .secondSection button {
-    font-size: 200%;
+    font-size: 160%;
     padding: 1% 2%;
     display: block;
     margin: auto;
@@ -243,7 +244,7 @@ nav {
     flex-direction: column;
 }
 input {
-    height: 8vh;
+    height: 6vh;
     font-size: 110%;
 }
 label {
@@ -314,4 +315,101 @@ button:hover {
 .rightNav p:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+@media only screen and (max-width: 920px) {
+    .heroSection button {
+        font-size: 100%;
+    }
+    .secondSection button {
+        font-size: 100%;
+    }
+    input {
+        height: 4vh;
+    }
+    .rightNav {
+        width: 50%;
+    }
+    .leftNav {
+        width: 50%;
+    }
+    textarea {
+        width: 80%;
+    }
+    .heroSection h1 {
+        font-size: 400%;
+    }
+    .heroSection h3, .secondSection h3 {
+        font-size: 150%;
+    }
+    .contactRight {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .heroSection h1 {
+        font-size: 300%;
+    }
+    .heroSection h3, .secondSection h3 {
+        font-size: 120%;
+    }
+    .thirdSection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .leftThird {
+        width: 50%;
+        background-image: url(images/yasamine-june-Ywc8t3u25kQ-unsplash.jpg);
+        background-size: cover;
+        padding: 40% 20%;
+    }
+    .rightThird {
+        width: 100%;
+        text-align: center;
+        margin-top: 2%;
+    }
+    .thirdSection h3 {
+        color: rgb(194, 75, 10);
+    }
+    .contactSection {
+        flex-direction: column;
+    }
+    textarea {
+        width: 120%;
+    }
+    .nameInput input {
+        width: 35.5%;
+    }
+    .mailInput input {
+        width: 72%;
+    }
+    .numInput input {
+        width: 72%;
+    }
+}
+
+@media only screen and (max-width: 605px) {
+    .heroSection button {
+        font-size: 70%;
+    }
+    .secondSection button {
+        font-size: 70%;
+    }
+    input {
+        height: 3vh;
+    }
+    .rightNav {
+        width: 70%;
+    }
+    .leftNav {
+        width: 30%;
+    }
+    .heroSection h1 {
+        font-size: 300%;
+    }
+    .heroSection h3, .secondSection h3 {
+        font-size: 100%;
+    }
 }
