@@ -1,0 +1,317 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    padding: 1.5% 2%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.leftNav {
+    width: 60%;
+}
+
+.rightNav {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #473F34;
+    font-weight: 600;
+}
+
+.leftNav p {
+    font-weight: 500;
+    font-size: 150%;
+}
+
+.leftNav p span {
+    font-weight: 900;
+    color: rgb(194, 75, 10);
+    font-family: "Pacifico", cursive;
+}
+
+/* HERO SECTION */
+
+.heroSection {
+    padding: 17% 5%;
+    color: white;
+    background-image: url(images/markus-spiske-qV_mS7KYxYI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(194, 75, 10, 0.5);
+    background-blend-mode: color;
+}
+
+.heroSection h1 {
+    font-size: 500%;
+    text-align: center;
+    margin: -5% 0% 3% 0%;
+}
+
+.heroSection h3 {
+    font-size: 200%;
+    text-align: center;
+    margin: 0% 10% 3% 10%;
+    line-height: 1.6em;
+}
+
+.heroSection button {
+    /*display: grid;
+    margin: auto;
+    */margin: 0% 30%;
+    padding: 0% 0%;
+    font-size: 200%;
+    font-weight: 900;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(194, 75, 10);
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+.flexBtn {
+    display: flex;
+    align-items: center;
+}
+
+.flexBtn img {
+    width: 15%;
+}
+
+/* SECOND SECTIOn */
+.secondSection h3 {
+    font-size: 200%;
+    text-align: center;
+    margin: 0% 10% 3% 10%;
+    line-height: 1.6em;
+}
+
+.secondSection {
+    margin: 3% 0%;
+    padding: 15% 5%;
+    color: white;
+    background-image: url(images/ugandan-crafts-8gIaQDBYZMc-unsplash.jpg);
+    background-size: cover;
+    background-color: ;
+}
+    
+.secondSection button {
+    font-size: 200%;
+    padding: 1% 2%;
+    display: block;
+    margin: auto;
+    font-weight: 900;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(194, 75, 10);
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+/* THIRD SECTION */
+.thirdSection {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.leftThird {
+    width: 48%;
+    background-image: url(images/yasamine-june-Ywc8t3u25kQ-unsplash.jpg);
+    background-size: cover;
+    padding: 10% 0%;
+}
+.rightThird {
+    width: 48%;
+}
+.thirdSection h3 {
+    color: rgb(194, 75, 10);
+}
+.under {
+    border-bottom: 4px solid rgb(194, 75, 10);
+    padding-bottom: .5%;
+}
+
+.thirdSection h3 {
+    font-size: 250%;
+    letter-spacing: .05em;
+    margin: 0% 0% 3% 0%;
+}
+
+.thirdSection h4{
+    font-size: 150%;
+    line-height: 1.6em;
+}
+
+/* CONTACT SECTION */
+.mail {
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    line-height: 1.6em;
+}
+.mail img {
+    margin-right: 2%;
+    width: 9%;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    line-height: 1.6em;
+}
+.phone img {
+    margin-right: 2%;
+    width: 9%;
+}
+.contactSection h3 {
+    font-size: 250%;
+    letter-spacing: .05em;
+    margin: 0% 0% 3% 0%;
+    color: rgb(194, 75, 10);
+}
+.contactSection h4 {
+    font-size: 120%;
+}
+
+.contactSection {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 1%;
+}
+
+.contactLeft {
+    width: 40%;
+}
+.contactRight {
+    width: 58%;
+}
+
+.nameInput {
+    line-height: 2em;
+    margin: 2% 0%;
+}
+.mailInput {
+    line-height: 2em;
+    margin: 2% 0%;
+}
+.nameInput input {
+    width: 29.5%;
+}
+.mailInput input {
+    width: 60%;
+}
+.numInput input {
+    width: 60%;
+}
+.numInput {
+    line-height: 2em;
+    margin: 2% 0%;
+}
+.message {
+    line-height: 2em;
+    margin: 2% 0%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    height: 8vh;
+    font-size: 110%;
+}
+label {
+    font-size: 130%;
+    color: rgb(194, 75, 10);
+    font-weight: 700;
+}
+
+.contactRight button {
+    padding: 1% 1.5%;
+    border: none;
+    background-color: rgb(194, 75, 10);
+    color: white;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(194, 75, 10);
+    color: white;
+    padding: 2% 0%;
+    text-align: center;
+    font-weight: 800;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(194, 75, 10);
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.rightNav p:hover {
+    color: rgb(194, 75, 10);
+    cursor: pointer;
+    transform: scale();
+    -webkit-transform: scale();
+    -moz-transform: scale();
+    -ms-transform: scale();
+    -o-transform: scale();
+}
+
+.rightNav p {
+    text-decoration: none;
+    /* color: rgba(255,255,255,1); */
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2%;
+}
+.rightNav p:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(194, 75, 10);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+.rightNav p:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
