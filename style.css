@@ -414,7 +414,7 @@ button:hover {
     .heroSection h3, .secondSection h3 {
         font-size: 100%;
     }
-    .rightThird {
+    .rightThird h4 {
 
         font-size: 60%;
 
@@ -424,7 +424,7 @@ button:hover {
 
     }
     contactSection h3 { 
-        font-size: 180%;
+        font-size: 160%;
         text-align: center;
 
         
